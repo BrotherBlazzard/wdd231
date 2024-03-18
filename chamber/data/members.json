@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Business 1",
+        "industry": "Technology",
+        "location": "City A"
+    },
+    {
+        "name": "Business 2",
+        "industry": "Finance",
+        "location": "City B"
+    },
+    {
+        "name": "Business 3",
+        "industry": "Retail",
+        "location": "City C"
+    },
+    {
+        "name": "Business 4",
+        "industry": "Hospitality",
+        "location": "City D"
+    },
+    {
+        "name": "Business 5",
+        "industry": "Manufacturing",
+        "location": "City E"
+    },
+    {
+        "name": "Business 6",
+        "industry": "Healthcare",
+        "location": "City F"
+    },
+    {
+        "name": "Business 7",
+        "industry": "Education",
+        "location": "City G"
+    }
+]
