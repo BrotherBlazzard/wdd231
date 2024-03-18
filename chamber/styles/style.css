@@ -1,0 +1,58 @@
+/* Reset default styles */
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Container for the directory */
+.directory-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Directory item */
+.directory-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Directory item image */
+.directory-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Directory item details */
+.directory-item .details {
+    flex: 1;
+}
+
+/* Directory item title */
+.directory-item .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Directory item description */
+.directory-item .description {
+    color: #666;
+}
+
+/* Directory item link */
+.directory-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Directory item link on hover */
+.directory-item a:hover {
+    text-decoration: underline;
+}
