@@ -2,16 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="Hello World">
-    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is an example assignment portal, home page for WDD 231">
+    <meta name="author" content="Rubia M. Francesco">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat+Alternates&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <!-- <script src="scripts/hamMenu.js" defer></script> -->
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/getcourses.js" defer></script>
+    <title>Rubia Francesco | WDD 231 Course Home</title>
 </head>
 
 <body>
-    <h1>WDD 231 Test</h1>
-    <img src="images/schlosshotel.jpg" alt="Germany Castle Hotel">
+    <header>
+        <img src="images/profile.jpg" alt="Rubia Francesco Profile Image" width="100">
+        <h1>Rubia M. Francesco</h1>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="#" class="current">Home</a>
+            <a href="chamber/">Chamber</a>
+            <a href="https://rubia.github.io/rubia">GitHub Profile</a>
+            <a href="https://linkedin.com">LinkedIn</a>
+        </div>
+    </nav>
+    <main>
+        <h2>Web and Computer Programming Certificate</h2>
+        <div class="filters">
+            <button id="all">All</button>
+            <button id="CSE">CSE</button>
+            <button id="WDD">WDD</button>
+        </div>
+        <hr>
+        <div id="courses"></div>
+    </main>
+    <footer>
+        <p><span id="copyright"></span><span>🌺 Rubia Magdelena Francesco 🌺</span> <span class="vcenter">Madagascar
+            <img src="https://cdn.britannica.com/46/2246-050-BBAA2DFD/Flag-Madagascar.jpg?w=400&h=235&c=crop"
+              alt="Flag of Madagascar" width="50" loading="lazy"></span>
+        </p>
+        <p id="lastmodified" class="highlight"></p>
+    </footer>
+    
 </body>
 
 </html>

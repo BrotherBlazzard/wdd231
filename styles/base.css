@@ -1,0 +1,42 @@
+:root {
+    --blue: rgb(29, 77, 114);
+    --blue-1: rgba(29, 77, 114, 0.1);
+    --blue-7: rgba(29, 77, 114, 0.7);
+    --blue-9: rgba(29, 77, 114, 0.9);
+    --brown: rgba(100, 50, 25, 1);
+    --yellow: rgba(255, 255, 0, 1);
+    --bord: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 2rem;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.course {
+
+}
